@@ -53,7 +53,7 @@ colmns = colmns0[1].columns([1, 1, 1, 1, 1], gap="small")
 button7 = colmns[2].button(' 清除数据 ')
 
 if button7:
-    url = 'http://52.52.52.101:9011/api/WLW_MLFW/clearTargetInfo'
+    url = 'http://52.52.52.100:9011/api/WLW_MLFW/clearTargetInfo'
     try:
         response = requests.get(url, timeout=1)
         # 处理响应数据
